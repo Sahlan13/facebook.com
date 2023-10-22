@@ -1,0 +1,150 @@
+body{
+    background-color: #f0f2f5;  
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+img{
+    display: block;
+    margin:auto;
+    margin-top:40px;
+    width: 250px;
+}
+
+.block{
+    height: 320px;
+    width: 400px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    border-radius: 8px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 80px;
+    
+    box-sizing: border-box;
+}
+
+.txt1{
+    padding-top: 25px;
+    font-family: -apple-system, sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: lighter;
+}
+
+input[type="text"],[type="password"]{
+    width: 90%;
+    font-family: -apple-system, sans-serif;
+    display: block;
+    margin: auto;
+    border-radius: 8px;
+    border: 1px  solid #dddfe2;
+    margin-top: 10px;
+    height: 50px;
+    padding-left: 14px;
+    font-size: 16px;
+} :focus{
+    outline: none;
+}
+
+
+.bottom{
+    padding-top: 150px;
+    margin-bottom: 0px;
+    background-color: white;
+    height: 200px;
+    width:100%
+    
+    
+    
+}
+
+
+input[type="submit"]{
+    background-color: #1877f2;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    width: 92%;
+    font-family: -apple-system, sans-serif;
+    display: block;
+    margin: auto;
+    border-radius: 8px;
+    border: 1px  solid #dddfe2;
+    margin-top: 10px;
+    height: 50px;
+    
+}:focus{
+    outline: none;
+}
+
+a{
+    text-decoration: none;
+    margin-left: 3px;
+    margin-right: 3px;
+    color:  #1877f2;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif
+    
+}
+.atag{
+    width: max-content;
+    margin: auto;
+    margin-top: 20px;
+
+}
+
+.toptags a{
+    color: #737373;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: lighter;
+    
+}
+.toptags input{
+    color: #737373;
+    background-color: #f5f6f7;
+    border-color: #ccd0d5;
+    width: 35px;
+    height: 20px;
+    border-radius: 1px;
+    display: inline;
+
+}
+.tags{
+    width:70%;
+    display: block;
+    margin :auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+   
+}
+
+
+.line{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+}
+
+
+.bottags a{
+    color: #737373;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: lighter;
+    
+}
+
+.meta{
+    margin-top: 10px;
+    color: #737373;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: lighter;
+}
